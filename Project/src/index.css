@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #19273a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  /* font-family: 'Poppins', sans-serif; */
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.clock {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #3498db;
+  border-radius: 50%;
+  position: relative;
+}
+
+.clock:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 12px;
+  background: #3498db;
+  top: 3px;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: bottom center;
+  animation: clock 2s infinite linear;
+}
+
+.clock:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background: #e74c3c;
+  top: 7px;
+  left: 50%;
+  margin-left: -1px;
+  transform-origin: bottom center;
+  animation: clock 12s infinite linear;
+}
+
+@keyframes clock {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
