@@ -41,7 +41,7 @@ This repo contains **real-world frontend projects** that I built using **React, 
 ✅ Built with **React + Tailwind CSS**  
 
 🔗 **Live Demo:** [Keshari School Portal](https://kesharinandanvidyamandir.netlify.app/)  
-💻 **Source Code:** [View Code](./KeshariSchoolPortal)  
+💻 **Source Code:** [View Code](https://github.com/ratanyadav476/RealWorldProjects/tree/main/SchoolWebsite)  
 
 ---
 
@@ -50,7 +50,7 @@ This repo contains **real-world frontend projects** that I built using **React, 
 ✅ Built with **React + Tailwind CSS**  
 
 🔗 **Live Demo:** [Magma Advertisement App](https://tangerine-fudge-a4ab8f.netlify.app/)  
-💻 **Source Code:** [View Code](./MagmaApp)  
+💻 **Source Code:** [View Code](https://github.com/ratanyadav476/RealWorldProjects/tree/main/Magma-main)  
 
 ---
 
